@@ -1,4 +1,5 @@
 mod normaliser;
+mod search_query;
 mod search_vector;
 mod token;
 mod tokeniser;
