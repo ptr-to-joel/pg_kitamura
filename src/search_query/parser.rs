@@ -1,4 +1,5 @@
-enum Token {
+#[derive(PartialEq)]
+pub (crate) enum Token {
     Term(String),
     And,
     Or,
