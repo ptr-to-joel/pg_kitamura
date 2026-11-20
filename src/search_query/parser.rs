@@ -1,4 +1,4 @@
-#[derive(PartialEq)]
+#[derive(Debug, PartialEq)]
 pub(crate) enum Token {
     Term(String),
     And,
